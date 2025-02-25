@@ -1,0 +1,22 @@
+
+Geometry
+
+The model has a reference length of 0.1752 m
+
+delta-sting-half-split.xmt_txt:
+
+ Dimensioned in meters. The model was extracted from a STEP file
+ exported from CATIA V5 provided by Yoshikazu Makino of JAXA.  The
+ sting was created from a drawing by Bil Kleb and Mike Park in UG NX.
+ The sting is inserted 0.079184 m (3.1175 in) into the base of the
+ model. The model was split at z=0 to improve grid quality at the nose.
+ Contact Mike.Park@NASA.Gov for more details.
+
+delta-sting-half-split.igs:
+
+ Exported from delta-sting-half.xmt_txt
+
+delta-sting-half-split.stp:
+
+ Exported from delta-sting-half.xmt_txt (as AP-203)
+

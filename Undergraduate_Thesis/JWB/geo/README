@@ -1,0 +1,27 @@
+
+JAXA Wing Body Geometry
+
+jwb-geom-v2-mm.stp:
+
+ The geometry provided includes a rotation about the nose of 2.3067 deg
+ to include the design angle of attack. The STEP file is in
+ millimeters. It should be scaled on import to your grid generation
+ system by 0.001 to yield meters. The model has a 38.7 (m) body
+ length and a full span 65.6 (m^2) reference area.
+
+ The model was provided by JAXA as separate wing and body parts. Scott
+ Brynildsen combined the wing and body parts into a single solid
+ model. It has been rotated in UG NX and exported it as AP-203 STEP
+ in mm.
+
+ The v1 version of this file was oriented incorrectly by rotating the
+ configuration nose down, instead of nose up. The v2 version of the file
+ superceedes the version v1 of the step file.
+
+To validate:
+
+ The nose is expected to be at (0,0,0) the upper aft centerline of
+ the fuselage is expected to be at (38.6505,0,-1.3517) and the lower
+ aft centerline of fuselage is expected to be at (38.6495,0,-1.3772)
+ in meters.
+

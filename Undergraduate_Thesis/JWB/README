@@ -1,0 +1,32 @@
+
+JAXA Wing Body
+
+Simulation Conditions
+
+1.6 Mach
+0.0 (degree) angle of attack (geometry and grid provided includes rotation)
+32.8 (m^2) reference area for half span model
+38.7  (m) body length
+U.S. Standard Atmosphere (1976)
+15760 (m) altitude
+216.65 (K) temperature
+
+Optional:
+5.70e+06 flight Reynolds Number per meter (for viscous simulation)
+1.32e+05 wind tunnel Reynolds Number per meter (for viscous simulation)
+
+The geometry and grid provided includes a rotation about the nose of
+2.3067 deg to include design angle of attack. The units of the grid and
+geometry are provided in meters.
+
+Use the reference area to compute CL and CD. Use the nose (0,0,0) as
+the refence center for CM and the body length as the moment reference length.
+
+For optional loudness calculation, the minimum sampling frequency is 48 kHz
+
+data-submittal: forms for summitting results
+
+geometry: geometry CAD files
+
+inviscid: inviscid grids
+

@@ -1,0 +1,56 @@
+
+69-Degree Delta Wing Body
+
+Update
+
+Late June 2013, a new set of geometry and unstructed grids was
+released. Make sure that the word 'split' is in the filename of
+the geometry and unstructured grid file you use.
+
+Reference
+
+Originally described as Model 4 in
+
+http://hdl.handle.net/2060/19730006982
+http://ntrs.nasa.gov/search.jsp?R=19730006982
+
+@techreport{wing-planform-boom-wt-tn-7160,
+  author      = {Lynn W. Hunton and Raymond M. Hicks and Joel P. Mendoza},
+  title       = {Some Effects of Wing Planform on Sonic Boom},
+  institution = {NASA Ames Research Center},
+  type        = {NASA},
+  number      = {TN D-7160},
+  month       = jan,
+  year        = 1973,
+  doi         = {2060/19730006982}
+}
+
+Simulation Conditions
+
+- Euler
+- 1.7 Mach number
+- zero degrees angle of attack and sideslip
+
+Data Summittal
+
+data-submittal: contains the signature locations, template, and a Tecplot macro 
+to extract signatures from volume data.
+
+Geometry
+
+geometry: contains the geometry of the model and sting in mulitple
+formats
+
+Grids
+
+mixed-element: tetrahedra and prism element grids in mulitple formats
+and resolutions
+
+tetrahedral: purely tetrahedra grids converted from mixed-element grids
+
+usm3d: purely tetrahedra grids converted to VGRID cogsg format
+
+structured: point-matched stuctured block grids
+
+surface: surface grid 
+
